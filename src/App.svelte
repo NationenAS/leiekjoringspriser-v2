@@ -232,6 +232,7 @@ const getSubCategories = (category: string) => {
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.3;
     border-radius: 2px;
+    max-width: calc(100% - (var(--padding)* 2));
   }
   h2 a {
     font-size: 0.8rem;
@@ -277,10 +278,10 @@ const getSubCategories = (category: string) => {
     min-width: 4rem;
   }
   .red {
-    color: red;
+    color: rgb(166, 14, 14);
   }
   .green {
-    color: green;
+    color: rgb(7, 96, 7);
   }
   strong {
     font-weight: 500;
@@ -289,6 +290,12 @@ const getSubCategories = (category: string) => {
     display: none;
   }
   @media (max-width: 540px) {
+    main {
+      --padding: 1.2rem;
+    }
+    .list {
+      margin-top: 2.5rem;
+    }  
     .row {
       display: grid;
       grid-template-columns: 2fr 1fr;

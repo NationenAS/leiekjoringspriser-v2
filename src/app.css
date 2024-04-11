@@ -31,3 +31,6 @@
   font-family: 'National2', sans-serif;
   scroll-behavior: smooth;
 }
+#app * {
+  box-sizing: border-box;
+}
