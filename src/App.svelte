@@ -52,6 +52,10 @@ const categories = [
   }
 ];
 
+const getSubCategories = (category: string) => {
+  return new Set(data.filter(d => d.Kategori === category).map(d => d.Underkategori));
+}
+
 </script>
 
 <svelte:head>
@@ -61,13 +65,25 @@ const categories = [
 </svelte:head>
 
 <main>
+  <h1>Leiekjøringspriser</h1>
+  <div class="intro">
+    Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per april 2024.
+  </div>
   <div class="nav" id=nav>
     {#each categories as category}
-    <a href="#{category.name}">{category.name}</a>
+    <a href="#{category.name}">
+      <div class="nav-card">
+        <div class="nav-image">
+          <img src="./{category.image}" alt={category.name}>
+        </div>
+        <div class="nav-title">{category.name}<div>
+      </div>
+    </a>
     {/each}
   </div>
   <div class="categories">
     {#each categories as category}
+    {@const subCategories = getSubCategories(category.name)}
     <div class="category" id={category.name}>
       <div class="category-header" style="background-image: url(./{category.image})">
         <h2>
@@ -88,29 +104,39 @@ const categories = [
             </div>
           </div>
         </div>
-        {#each data.filter(d => d.Kategori === category.name) as item}
-          <div class="row">
-            <div class="type">
-              {item.Type}
+        {#each subCategories as subcat}
+          {#if subcat !== category.name}
+            <div class="row row-subcat">
+              <div>{subcat}</div>
             </div>
-            <div class="values">
+          {/if}
+          {#each data.filter(d => d.Kategori === category.name && d.Underkategori == subcat) as item}
+            <div class="row">
+              <div class="type">
+                {item.Type}
+              </div>
               {#if item.Laveste == 'Timepris som oppdrag'}
-              <div class="value span-2">
-                {item.Laveste}
-              </div>
+                <div class="unit"></div>
+                <div class="values">
+                  {item.Laveste}
+                </div>
               {:else}
-              <div class="value unit">
-                {item.Enhet}
-              </div>
-              <div class="value">
-                <strong class="green">{item.Laveste}</strong> 
-              </div>
-              <div class="value">
-                <strong class="red">{item.Høyeste}</strong>
-              </div>
+                <div class="unit">
+                  {item.Enhet}
+                </div>
+                <div class="values">
+                  <div class="value">
+                    <div class="compact">Laveste</div>
+                    <strong class="green">{item.Laveste}</strong> 
+                  </div>
+                  <div class="value">
+                    <div class="compact">Høyeste</div>
+                    <strong class="red">{item.Høyeste}</strong>
+                  </div>
+                </div>
               {/if}
             </div>
-          </div>
+          {/each}
         {/each}
       </div>
     </div>
@@ -121,6 +147,62 @@ const categories = [
 <style>
   main {
     --padding: 1.8rem;
+  }
+  h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .intro {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 630px;
+  }
+  .nav {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin-bottom: 3rem;
+  }
+  .nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .nav-card {
+    background: white;
+    height: 14rem;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+  }
+  .nav-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  .nav-image {
+    overflow: hidden;
+    flex: 1;
+  }
+  .nav-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.2s ease-out;
+    user-select: none;
+  }
+  .nav-card:hover img {
+    transform: scale(1.05);
+  }
+  .nav-title {
+    padding: 0.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
   }
   .categories {
     display: flex;
@@ -141,7 +223,7 @@ const categories = [
   h2 {
     position: absolute;
     background: #355c77;
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1.2rem;
     left: var(--padding);
     bottom: 0;
     margin: 0;
@@ -164,29 +246,35 @@ const categories = [
   .row {
     display: flex;
     justify-content: space-between;
-    padding: 0.75rem 0;
-    border-bottom: 1px solid #ccc;
-  }
-  .row:last-child {
-    border-bottom: none;
+    padding: 0.6rem 0;
   }
   .row-header {
     font-weight: 500;
+  }
+  .row-subcat {
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-top: 0.75rem;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 2px;
+  }
+  .type {
+    flex: 1;
   }
   .values {
     display: flex;
     gap: 1rem;
   }
-  .value {
+  .value,
+  .unit {
     text-align: right;
-    width: 5rem;
   }
   .unit {
     font-weight: 100;
-    width: 3rem;
   }
-  .span-2 {
-    width: 10rem;
+  .value {
+    min-width: 4rem;
   }
   .red {
     color: red;
@@ -196,5 +284,38 @@ const categories = [
   }
   strong {
     font-weight: 500;
+  }
+  .compact {
+    display: none;
+  }
+  @media (max-width: 540px) {
+    .row {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto auto;
+    }
+    .row > :nth-child(3) {
+      grid-row: 2;
+      grid-column: span 2;
+    }
+    .row-header {
+      display: none;
+    }
+    .row-subcat > div {
+      grid-column: span 2;
+    }
+    .values {
+      flex-direction: column;
+      gap: 0.1rem;
+      margin-top: 0.4rem;
+    }
+    .value {
+      display: flex;
+      justify-content: space-between;
+    }
+    .compact {
+      display: block;
+      font-weight: 100;
+    }
   }
 </style>
