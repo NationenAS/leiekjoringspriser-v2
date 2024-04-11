@@ -1,0 +1,1298 @@
+[
+  {
+      "Kategori": "Traktor",
+      "Underkategori": "Traktor",
+      "Type": "Traktor under 100 hk",
+      "Enhet": "kr/t",
+      "Laveste": "500",
+      "Høyeste": "1000"
+  },
+  {
+      "Kategori": "Traktor",
+      "Underkategori": "Traktor",
+      "Type": "Traktor mellom 100-150 hk",
+      "Enhet": "kr/t",
+      "Laveste": "650",
+      "Høyeste": "1100"
+  },
+  {
+      "Kategori": "Traktor",
+      "Underkategori": "Traktor",
+      "Type": "Traktor mellom 150-200 hk",
+      "Enhet": "kr/t",
+      "Laveste": "750",
+      "Høyeste": "1300"
+  },
+  {
+      "Kategori": "Traktor",
+      "Underkategori": "Traktor",
+      "Type": "Traktor mellom 200-300 hk",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Steinrive, ca. 4-6 m",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Steinplukker, stor stein",
+      "Enhet": "kr/t",
+      "Laveste": "1400",
+      "Høyeste": "2500"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Steinplukker, små stein",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Steinstrenglegging",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Djupkultivator",
+      "Enhet": "kr/t",
+      "Laveste": "1300",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Vendeplog 3-skjærs",
+      "Enhet": "kr/t",
+      "Laveste": "850",
+      "Høyeste": "1200"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Vendeplog 4-skjærs",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Vendeplog 5-skjærs",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1700"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Vendeplog 6-skjærs",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Horisontal-/vertikalrotorharv, ca. 3 m",
+      "Enhet": "kr/t",
+      "Laveste": "950",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Horisontalrotorharv, ca. 3 m såmaskin",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Rotorharv",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1600"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Skålharv gml. type, som Kverneland",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Skålharv ny type, som Lemken Rubin/Väderstad/Carrier etc.",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "2500"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Såbedsharv 5-8 m",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1600"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Såbedsharv 5-8 m",
+      "Enhet": "kr/daa",
+      "Laveste": "60",
+      "Høyeste": "80"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Stubbharv gåsefot",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1450"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Stubbharv gåsefot",
+      "Enhet": "kr/daa",
+      "Laveste": "65",
+      "Høyeste": "80"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Trommel",
+      "Enhet": "kr/t",
+      "Laveste": "700",
+      "Høyeste": "1200"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Sloddetrommel/Crosskill",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1300"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Sloddetrommel/Crosskill",
+      "Enhet": "kr/daa",
+      "Laveste": "65",
+      "Høyeste": "95"
+  },
+  {
+      "Kategori": "Jordarbeiding",
+      "Underkategori": "Jordarbeiding",
+      "Type": "Slodding",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Kombisåmaskin",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Kombisåmaskin",
+      "Enhet": "kr/daa",
+      "Laveste": "90",
+      "Høyeste": "135"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Grasfrøsåmaskin",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1100"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Grasfrøsåmaskin",
+      "Enhet": "kr/daa",
+      "Laveste": "50",
+      "Høyeste": "95"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Ugrasharv",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1250"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Direktesåing",
+      "Enhet": "kr/t",
+      "Laveste": "1050",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Direktesåing",
+      "Enhet": "kr/daa",
+      "Laveste": "120",
+      "Høyeste": "165"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Potetsetting",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Såing",
+      "Type": "Enkorn såmaskin (mais, gulrot etc.)",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Omrøring av husdyrgjødsel, første 2-3 timer",
+      "Enhet": "kr/pr. gang",
+      "Laveste": "2500",
+      "Høyeste": "5000"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Omrøring",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Gjødselvogn opptil 12 m³",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Gjødselvogn større enn 12 m³",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1650"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Selvlessende gjødselvogn 8-15 m³",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "1850"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Slangesprederutstyr, inkl. mann, to traktorer",
+      "Enhet": "kr/t",
+      "Laveste": "3000",
+      "Høyeste": "4500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Slangesprederutstyr, inkl. mann, to traktorer",
+      "Enhet": "kr/m3",
+      "Laveste": "30",
+      "Høyeste": "50"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Slangespreder, tilrigging/flytting mellom jorder",
+      "Enhet": "kr/pr. gang",
+      "Laveste": "1800",
+      "Høyeste": "3500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Slangespredning med fanespreder",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Slangespredning med slangebom opp til 9 m",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "2500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Slangespredning med slangebom over 9 m",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "3000"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Flytting av gjødsel",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Gjødsling",
+      "Type": "Flytting av gjødsel ",
+      "Enhet": "pr. m3",
+      "Laveste": "120",
+      "Høyeste": "140"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Kalking og tørrgjødsling (talle, høne- eller hestemøkk)",
+      "Type": "Kalkvogn 5-13 tonn ",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1900"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Kalking og tørrgjødsling (talle, høne- eller hestemøkk)",
+      "Type": "Tørrgjødselvogn",
+      "Enhet": "kr/t",
+      "Laveste": "1250",
+      "Høyeste": "1900"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Kalking og tørrgjødsling (talle, høne- eller hestemøkk)",
+      "Type": "Sentrifugalspreder",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Kalking og tørrgjødsling (talle, høne- eller hestemøkk)",
+      "Type": "Sentrifugalspreder",
+      "Enhet": "kr/daa",
+      "Laveste": "20",
+      "Høyeste": "40"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Kalking og tørrgjødsling (talle, høne- eller hestemøkk)",
+      "Type": "Klargjøring av nitrogensensor (adm./printe kart etc.)",
+      "Enhet": "kr/t",
+      "Laveste": "600",
+      "Høyeste": "900"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Kalking og tørrgjødsling (talle, høne- eller hestemøkk)",
+      "Type": "Kjøretillegg for nitrogensensor ",
+      "Enhet": "kr/daa",
+      "Laveste": "10",
+      "Høyeste": "15"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Mekanisk ugrasbekjemping",
+      "Type": "Ugrasharv 6-9 m",
+      "Enhet": "kr/t",
+      "Laveste": "950",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Mekanisk ugrasbekjemping",
+      "Type": "Ugrasharv over 9 m",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Mekanisk ugrasbekjemping",
+      "Type": "Hypping, potet",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1300"
+  },
+  {
+      "Kategori": "Gjødsling, såing, og kalking",
+      "Underkategori": "Mekanisk ugrasbekjemping",
+      "Type": "Risknusing, potet",
+      "Enhet": "kr/t",
+      "Laveste": "850",
+      "Høyeste": "1350"
+  },
+  {
+      "Kategori": "Sprøyting",
+      "Underkategori": "Sprøyting, eks kjemikalier",
+      "Type": "Traktorsprøyting",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Sprøyting",
+      "Underkategori": "Sprøyting, eks kjemikalier",
+      "Type": "Traktorsprøyting",
+      "Enhet": "kr/daa",
+      "Laveste": "30",
+      "Høyeste": "60"
+  },
+  {
+      "Kategori": "Sprøyting",
+      "Underkategori": "Sprøyting, eks kjemikalier",
+      "Type": "Fylling og vasking",
+      "Enhet": "kr/t",
+      "Laveste": "600",
+      "Høyeste": "1000"
+  },
+  {
+      "Kategori": "Sprøyting",
+      "Underkategori": "Sprøyting, eks kjemikalier",
+      "Type": "Tillegg for GPS-seksjonsavstenging",
+      "Enhet": "kr/daa",
+      "Laveste": "0",
+      "Høyeste": "15"
+  },
+  {
+      "Kategori": "Sprøyting",
+      "Underkategori": "Sprøyting, eks kjemikalier",
+      "Type": "Tillegg for GPS-seksjonsavstenging",
+      "Enhet": "kr/t",
+      "Laveste": "0",
+      "Høyeste": "50"
+  },
+  {
+      "Kategori": "Sprøyting",
+      "Underkategori": "Sprøyting, eks kjemikalier",
+      "Type": "Tillegg for adm. (plantevernjournal, GPS-kart etc.)",
+      "Enhet": "kr/t",
+      "Laveste": "600",
+      "Høyeste": "900"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Slåmaskin, 3 meter",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Slåmaskin, 6 meter",
+      "Enhet": "kr/t",
+      "Laveste": "1250",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Slåmaskin, 9 meter",
+      "Enhet": "kr/t",
+      "Laveste": "1800",
+      "Høyeste": "2500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Eksaktsnitter slep",
+      "Enhet": "kr/t",
+      "Laveste": "1400",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Finsnitter selvgående",
+      "Enhet": "kr/t",
+      "Laveste": "3500",
+      "Høyeste": "4500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Lessevogn m/kutting",
+      "Enhet": "kr/t",
+      "Laveste": "1150",
+      "Høyeste": "1700"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Stråfôr- og grasarbeid",
+      "Type": "Hjullaster til pakking i plansilo",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Samle- og sprederiver",
+      "Type": "Samlerive",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Samle- og sprederiver",
+      "Type": "Sprederive/venderive",
+      "Enhet": "kr/t",
+      "Laveste": "950",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Firkantpresse, småballer",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Firkantpresse, småballer",
+      "Enhet": "kr/balle",
+      "Laveste": "10",
+      "Høyeste": "15"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Firkantpresse, stor, gras m/ åtte lag plast",
+      "Enhet": "kr/ball",
+      "Laveste": "240",
+      "Høyeste": "300"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Firkantpresse, stor, halm u/ innpakking",
+      "Enhet": "kr/ball",
+      "Laveste": "60",
+      "Høyeste": "90"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Rundballepresse u/ kutting",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Rundballepresse m/ kutting",
+      "Enhet": "kr/t",
+      "Laveste": "1350",
+      "Høyeste": "2200"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Rundballepressing m/ pakker",
+      "Enhet": "kr/t",
+      "Laveste": "1500",
+      "Høyeste": "2500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Rundballepressing u/ plast",
+      "Enhet": "kr/ball",
+      "Laveste": "110",
+      "Høyeste": "180"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Rundballepressing m/ seks lag plast",
+      "Enhet": "kr/ball",
+      "Laveste": "200",
+      "Høyeste": "300"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "- Tillegg per to lag plast",
+      "Enhet": "kr/ball",
+      "Laveste": "20",
+      "Høyeste": "40"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "- Tillegg ensilering",
+      "Enhet": "kr/ball",
+      "Laveste": "15",
+      "Høyeste": "40"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Pakking av rundball",
+      "Enhet": "kr/ball",
+      "Laveste": "100",
+      "Høyeste": "150"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Pakking av rundball – pølsepakker",
+      "Enhet": "kr/ball",
+      "Laveste": "50",
+      "Høyeste": "80"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Pakking av rundball – pølsepakker",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Sammenkjøring/stabling",
+      "Enhet": "kr/ball",
+      "Laveste": "30",
+      "Høyeste": "40"
+  },
+  {
+      "Kategori": "Stråfôr- og grasarbeid",
+      "Underkategori": "Pressing og pakking",
+      "Type": "Sammenkjøring/stabling",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Skurtresking",
+      "Enhet": "kr/daa",
+      "Laveste": "180",
+      "Høyeste": "250"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Tillegg for legde",
+      "Enhet": "kr/daa",
+      "Laveste": "40",
+      "Høyeste": "80"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Tillegg rengjøring problemugras (floghavre, hønsehirse)",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1000"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Tillegg for flytting mellom skifter",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Tillegg for venting på tilhenger/container",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Utleie container med transport til kornmottak",
+      "Enhet": "kr/gang",
+      "Laveste": "1100",
+      "Høyeste": "1700"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Korntransport",
+      "Enhet": "øre/kg",
+      "Laveste": "15",
+      "Høyeste": "20"
+  },
+  {
+      "Kategori": "Innhøsting",
+      "Underkategori": "Innhøsting",
+      "Type": "Korntransport",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Krattknuser",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Flishogger inntil 26 cm",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Flishogger opptil 70 cm diameter",
+      "Enhet": "kr/t",
+      "Laveste": "2000",
+      "Høyeste": "2800"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Flishogging",
+      "Enhet": "kr/m³",
+      "Laveste": "50",
+      "Høyeste": "70"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Kantklipping",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Greinsaging, fire sagblad",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Klipping med saks av virke fra 5-30 cm",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Traktor m/ vinsj",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Traktor m/ tømmertilhenger og kran",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Mann m/ motorsag",
+      "Enhet": "kr/t",
+      "Laveste": "500",
+      "Høyeste": "800"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Traktor m/ vedkløyver",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1100"
+  },
+  {
+      "Kategori": "Vedlikehold av skog og landskap",
+      "Underkategori": "Vedlikehold av skog og landskap",
+      "Type": "Traktor m/ vedmaskin",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1300"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Snøfres, gårdsfres",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Snøfres, større type",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Bakmontert skjær",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Spissplog",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1600"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "U-plog",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Diagonalplog",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1600"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Vikeplog",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1700"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Laster med skuff",
+      "Enhet": "kr/t",
+      "Laveste": "850",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Strøing m/valsespreder (eks. grus)",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Strøing m/talerkenspreder (eks. grus)",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "1600"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Snøbrøyting, privat oppkjørsel",
+      "Enhet": "kr/gang",
+      "Laveste": "250",
+      "Høyeste": "500"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Snøbrøyting, privat oppkjørsel m/ strøing",
+      "Enhet": "kr/gang",
+      "Laveste": "300",
+      "Høyeste": "700"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Snøbrøyting plass (industri)",
+      "Enhet": "kr/t",
+      "Laveste": "1200",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Snørydding",
+      "Underkategori": "Snørydding",
+      "Type": "Snøbrøyting vei (boligfelt(gangfelt/vei)",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Gravmaskin under 8 tonn",
+      "Enhet": "kr/t",
+      "Laveste": "800",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Gravemaskin 8 til 12 tonn",
+      "Enhet": "kr/t",
+      "Laveste": "850",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Gravemaskin over 12 tonn",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "1800"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Hjullaster",
+      "Enhet": "kr/t",
+      "Laveste": "1100",
+      "Høyeste": "2000"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Kompaktlaster",
+      "Enhet": "kr/t",
+      "Laveste": "750",
+      "Høyeste": "1000"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Grøftespyling",
+      "Enhet": "kr/t",
+      "Laveste": "850",
+      "Høyeste": "1200"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Dumperhenger under 15 tonn",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Dumperhenger over 15 tonn",
+      "Enhet": "kr/t",
+      "Laveste": "1050",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Tilhengertransport med traktor",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Lasting og lossing",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1200"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Kostemaskin",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Planeringsskjær",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1500"
+  },
+  {
+      "Kategori": "Anlegg, transport",
+      "Underkategori": "Anlegg, transport",
+      "Type": "Veiskrape",
+      "Enhet": "kr/t",
+      "Laveste": "900",
+      "Høyeste": "1400"
+  },
+  {
+      "Kategori": "Diverse",
+      "Underkategori": "Diverse",
+      "Type": "Saueklipping",
+      "Enhet": "kr/dyr",
+      "Laveste": "45",
+      "Høyeste": "65"
+  },
+  {
+      "Kategori": "Diverse",
+      "Underkategori": "Diverse",
+      "Type": "Klauvskjæring ku",
+      "Enhet": "kr/ku",
+      "Laveste": "170",
+      "Høyeste": "250"
+  },
+  {
+      "Kategori": "Diverse",
+      "Underkategori": "Diverse",
+      "Type": "Oppmøte med rigging/klargjøring",
+      "Enhet": "kr/t",
+      "Laveste": "1000",
+      "Høyeste": "1600"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Minilaster, eks. diesel, inkl. forsikring",
+      "Enhet": "kr/t",
+      "Laveste": "350",
+      "Høyeste": "700"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Minilaster, eks. diesel, inkl. forsikring",
+      "Enhet": "kr/døgn",
+      "Laveste": "1500",
+      "Høyeste": "2500"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Traktor under 100 hk, eks. diesel, inkl. forsikring",
+      "Enhet": "kr/t",
+      "Laveste": "450",
+      "Høyeste": "850"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Traktor 100-150 hk, eks. diesel, inkl. forsikring",
+      "Enhet": "kr/t",
+      "Laveste": "500",
+      "Høyeste": "900"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Traktor 150-200 hk, eks. diesel, inkl. forsikring",
+      "Enhet": "kr/t",
+      "Laveste": "550",
+      "Høyeste": "950"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Traktor over 200 hk, eks. diesel, inkl. forsikring",
+      "Enhet": "kr/t",
+      "Laveste": "600",
+      "Høyeste": "1000"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "- Tillegg for laster",
+      "Enhet": "kr/t",
+      "Laveste": "70",
+      "Høyeste": "125"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "- Tillegg for smuss (veisalt etc.)",
+      "Enhet": "kr/t",
+      "Laveste": "50",
+      "Høyeste": "100"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "- Tillegg for presisjonsutstyr (autostyring)",
+      "Enhet": "kr/t",
+      "Laveste": "50",
+      "Høyeste": "100"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Traktorhenger",
+      "Enhet": "kr/døgn",
+      "Laveste": "1400",
+      "Høyeste": "3800"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Traktorhenger",
+      "Enhet": "kr/t",
+      "Laveste": "400",
+      "Høyeste": "800"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Dumperhenger/maskintransport",
+      "Enhet": "kr/døgn",
+      "Laveste": "1400",
+      "Høyeste": "4000"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Maskinhenger",
+      "Enhet": "kr/døgn",
+      "Laveste": "1400",
+      "Høyeste": "4000"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Type": "Gravemaskin 1,5-8 tonn",
+      "Enhet": "kr/døgn",
+      "Laveste": "1500",
+      "Høyeste": "4500"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Diverse",
+      "Type": "Arbeid, person",
+      "Enhet": "kr/t",
+      "Laveste": "350",
+      "Høyeste": "700"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Diverse",
+      "Type": "Leie av lagerpass (maskin)",
+      "Enhet": "kr/m2",
+      "Laveste": "100",
+      "Høyeste": "500"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Diverse",
+      "Type": "Leie av gjødsellager",
+      "Enhet": "kr/m³",
+      "Laveste": "30",
+      "Høyeste": "70"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Rigging, oppmøte og administrasjon",
+      "Type": "Vegtransport, flytting",
+      "Enhet": "kr/t",
+      "Laveste": "500",
+      "Høyeste": "1300"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Rigging, oppmøte og administrasjon",
+      "Type": "Ventetid på kunde",
+      "Enhet": "kr/t",
+      "Laveste": "Timepris som oppdrag",
+      "Høyeste": "Timepris som oppdrag"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Rigging, oppmøte og administrasjon",
+      "Type": "Utfylling av plantevernjournal, GPS-kart etc.",
+      "Enhet": "kr/t",
+      "Laveste": "550",
+      "Høyeste": "900"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Rigging, oppmøte og administrasjon",
+      "Type": "Klargjøring av nitrogensensor (adm.: printe kart etc.)",
+      "Enhet": "kr/t",
+      "Laveste": "550",
+      "Høyeste": "900"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Rigging, oppmøte og administrasjon",
+      "Type": "Fakturagebyr papirfaktura",
+      "Enhet": "pr. stk.",
+      "Laveste": "0",
+      "Høyeste": "30"
+  },
+  {
+      "Kategori": "Soloutleie (ren arbeidskraft eller maskinutleie)",
+      "Underkategori": "Rigging, oppmøte og administrasjon",
+      "Type": "Betalingsoppfordring/puregebyr",
+      "Enhet": "pr. stk.",
+      "Laveste": "0",
+      "Høyeste": "75"
+  }
+]

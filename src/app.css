@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'National2';
+  src: url('https://assets.acdn.no/pkg/@amedia/brick-fonts/1.5.0/fonts/alfa/national-2-thin.woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'National2';
+  src: url('https://assets.acdn.no/pkg/@amedia/brick-fonts/1.5.0/fonts/alfa/national-2-regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'National2';
+  src: url('https://assets.acdn.no/pkg/@amedia/brick-fonts/1.5.0/fonts/alfa/national-2-medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'National2';
+  src: url('https://assets.acdn.no/pkg/@amedia/brick-fonts/1.5.0/fonts/alfa/national-2-bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+#app {
+  font-family: 'National2', sans-serif;
+  scroll-behavior: smooth;
+}
