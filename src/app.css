@@ -30,6 +30,9 @@
 #app {
   font-family: 'National2', sans-serif;
   scroll-behavior: smooth;
+  width: 980px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 #app * {
   box-sizing: border-box;
