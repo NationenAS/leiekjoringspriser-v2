@@ -3,7 +3,7 @@
 // import { csv } from './assets/data';
 // import { csvParse } from 'd3-dsv';
 
-import data from './assets/data.json';
+import data from './assets/2025/data.json';
 
 const categories = [
   {
@@ -67,7 +67,7 @@ const getSubCategories = (category: string) => {
 <main>
   <h1>Leiekjøringspriser</h1>
   <div class="intro">
-    Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per april 2024.
+    Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per april 2025.
   </div>
   <div class="nav" id=nav>
     {#each categories as category}
