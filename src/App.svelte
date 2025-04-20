@@ -57,7 +57,7 @@ onMount(() => {
   const setHeight = (attempt = 1, initialDelay = 0) => {
     const checkAndAdjustHeight = () => {
         const windowHeight = window.innerHeight;
-        const documentHeight = document.body.offsetHeight + 360;
+        const documentHeight = document.body.offsetHeight + 400;
 
         console.log(`#${attempt} Window: ${windowHeight} Body: ${documentHeight}`);
 
