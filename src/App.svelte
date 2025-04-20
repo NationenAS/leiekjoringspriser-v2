@@ -1,8 +1,5 @@
 <script lang="ts">
-
-// import { csv } from './assets/data';
-// import { csvParse } from 'd3-dsv';
-
+import { onMount } from 'svelte';
 import data from './assets/2025/data.json';
 
 const categories = [
@@ -55,6 +52,11 @@ const categories = [
 const getSubCategories = (category: string) => {
   return new Set(data.filter(d => d.Kategori === category).map(d => d.Underkategori));
 }
+
+onMount(() => {
+  const height = window.innerHeight;
+  window.parent.postMessage({ height }, '*');
+});
 
 </script>
 
