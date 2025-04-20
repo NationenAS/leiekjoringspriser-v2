@@ -54,8 +54,31 @@ const getSubCategories = (category: string) => {
 }
 
 onMount(() => {
-  const height = window.innerHeight;
-  window.parent.postMessage({ height }, '*');
+  const setHeight = (attempt = 1, initialDelay = 0) => {
+    const checkAndAdjustHeight = () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.body.offsetHeight;
+
+        console.log(`#${attempt} Window: ${windowHeight} Body: ${documentHeight}`);
+
+      if (windowHeight != documentHeight) {
+        window.parent.postMessage({ height: documentHeight }, "*");
+        attempt++;
+        const nextDelay = Math.pow(2, attempt + 1);
+        setTimeout(() => {
+          setHeight(attempt);
+        }, nextDelay);
+      }
+    }
+    if (initialDelay) {
+      setTimeout(() => {
+        checkAndAdjustHeight();
+      }, initialDelay);
+    } else {
+      checkAndAdjustHeight();
+    }
+  }
+  setHeight();
 });
 
 </script>
