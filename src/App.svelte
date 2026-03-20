@@ -80,6 +80,15 @@ const setHeight = (attempt = 1, initialDelay = 0) => {
 
 onMount(() => {
   setHeight();
+  window.addEventListener('resize', () => {
+    setHeight();
+  });
+
+  return () => {
+    window.removeEventListener('resize', () => {
+      setHeight();
+    });
+  }
 });
 
 const jumpTo = (id: string) => {
@@ -97,9 +106,7 @@ const jumpTo = (id: string) => {
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
 </svelte:head>
 
-<main on:resize={() => {
-  setHeight();
-}}>
+<main>
   <h1>Leiekjøringspriser</h1>
   <div class="intro">
     Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per mars 2026.
