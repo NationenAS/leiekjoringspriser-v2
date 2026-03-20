@@ -53,33 +53,41 @@ const getSubCategories = (category: string) => {
   return new Set(data.filter(d => d.Kategori === category).map(d => d.Underkategori));
 }
 
-onMount(() => {
-  const setHeight = (attempt = 1, initialDelay = 0) => {
-    const checkAndAdjustHeight = () => {
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.body.offsetHeight + 400;
+const setHeight = (attempt = 1, initialDelay = 0) => {
+  const checkAndAdjustHeight = () => {
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.body.offsetHeight + 400;
 
-        console.log(`#${attempt} Window: ${windowHeight} Body: ${documentHeight}`);
+      console.log(`#${attempt} Window: ${windowHeight} Body: ${documentHeight}`);
 
-      if (windowHeight != documentHeight) {
-        window.parent.postMessage({ height: documentHeight }, "*");
-        attempt++;
-        const nextDelay = Math.pow(2, attempt + 1);
-        setTimeout(() => {
-          setHeight(attempt);
-        }, nextDelay);
-      }
-    }
-    if (initialDelay) {
+    if (windowHeight != documentHeight) {
+      window.parent.postMessage({ height: documentHeight }, "*");
+      attempt++;
+      const nextDelay = Math.pow(2, attempt + 1);
       setTimeout(() => {
-        checkAndAdjustHeight();
-      }, initialDelay);
-    } else {
-      checkAndAdjustHeight();
+        setHeight(attempt);
+      }, nextDelay);
     }
   }
+  if (initialDelay) {
+    setTimeout(() => {
+      checkAndAdjustHeight();
+    }, initialDelay);
+  } else {
+    checkAndAdjustHeight();
+  }
+}
+
+onMount(() => {
   setHeight();
 });
+
+const jumpTo = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 
 </script>
 
@@ -89,14 +97,18 @@ onMount(() => {
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
 </svelte:head>
 
-<main>
+<main on:resize={() => {
+  setHeight();
+}}>
   <h1>Leiekjøringspriser</h1>
   <div class="intro">
     Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per mars 2026.
   </div>
   <div class="nav" id=nav>
     {#each categories as category}
-    <a href="#{category.name}">
+    <a href="#{category.name}" on:click|preventDefault={() => {
+      jumpTo(category.name);
+    }}>
       <div class="nav-card">
         <div class="nav-image">
           <img src="./{category.image}" alt={category.name}>
@@ -112,7 +124,9 @@ onMount(() => {
     <div class="category" id={category.name}>
       <div class="category-header" style="background-image: url(./{category.image})">
         <h2>
-          <a href="#nav">Til toppen</a>
+          <a href="#nav" on:click|preventDefault={() => {
+            jumpTo('nav');
+          }}>Til toppen</a>
           {category.name}
         </h2>
       </div>
