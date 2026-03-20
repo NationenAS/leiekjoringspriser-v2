@@ -1,6 +1,6 @@
 <script lang="ts">
 import { onMount } from 'svelte';
-import data from './assets/2025/data.json';
+import data from './assets/2026/data.json';
 
 const categories = [
   {
@@ -92,7 +92,7 @@ onMount(() => {
 <main>
   <h1>Leiekjøringspriser</h1>
   <div class="intro">
-    Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per april 2025.
+    Her er vår komplette liste med priser på leiekjøring og soloutleie for gårdsdrift, snøbrøyting og anlegg/transport. Priser er oppdatert per mars 2026.
   </div>
   <div class="nav" id=nav>
     {#each categories as category}
